@@ -1,1 +1,15 @@
-Enter a domain to generate a JSON file
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.mohit.anandjms",
+      "sha256_cert_fingerprints": [
+        "C8:3A:3C:9B:28:2E:95:71:43:54:8D:80:8D:FB:AB:C9:F8:BE:7D:B6:95:DD:FE:70:01:BC:C7:D4:96:8E:F5:5E"
+      ]
+    }
+  }
+]
