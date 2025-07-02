@@ -58,9 +58,41 @@
       font-size: 16px;
       cursor: pointer;
       text-decoration: none;
+      margin-right: 10px;
     }
     .download-btn:hover {
       background-color: #2c5282;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+
+      .container {
+        padding: 20px 10px;
+      }
+
+      .download-btn {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+      }
+
+      header h1 {
+        font-size: 24px;
+      }
+
+      .section h2 {
+        font-size: 20px;
+      }
+
+      p, li {
+        font-size: 16px;
+      }
     }
   </style>
 </head>
@@ -84,7 +116,6 @@
     <h2>About ANAND MS</h2>
     <p>ANAND MS is a digital platform for community to bring people together. This application is developed mainly for Anand Maheshwari Samaj.
         It helps in managing community members, events, and announcements efficiently. The app provides a secure login for members, allowing them to access features.</p>
-    </p>
   </section>
 
   <section id="features" class="section">
